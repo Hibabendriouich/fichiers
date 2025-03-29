@@ -9,12 +9,10 @@ import java.io.PrintWriter;
 public class good {
     public static void main(String[] args) throws IOException {
 
-        BufferedReader r = new BufferedReader(new FileReader("good.in"));
-        PrintWriter w = new PrintWriter(new FileWriter("good.out"));
+        BufferedReader r = new BufferedReader(new FileReader("good.in.txt"));
+        PrintWriter w = new PrintWriter(new FileWriter("good.out.txt"));
 
         int n = Integer.parseInt(r.readLine());
-        System.out.println(System.getProperty("user.dir"));
-
         for (int i = 1; i <= n; i++) {
             int points = Integer.parseInt(r.readLine());
             long weightedSum = calculateWeightedSum(points);
