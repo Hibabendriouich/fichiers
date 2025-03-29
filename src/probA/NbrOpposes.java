@@ -10,7 +10,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class NbrOpposes {
-
     public static void main(String[] args) throws IOException {
 
         BufferedReader in = new BufferedReader(new FileReader("in.txt"));
